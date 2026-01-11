@@ -1,0 +1,87 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: pre-line;
+    background-color: #1f2235;
+    color: white;
+}
+.but:hover{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border: 2px;
+}
+.navbar {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-size: x-large;
+
+    gap: 6px;
+    padding: 0;
+}
+
+.navbar a {
+    font-size: x-large;
+  
+    margin-right: 10%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.parcours{
+    background-color: #313552;
+}
+.titre {
+    color: #FFC576;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+  
+}
+
+.formations {
+    font-size: 28px;
+    text-align: center;
+}
+.logiciel{
+ 
+    justify-content: space-evenly;
+}
+.logiciel h2{
+  font-size: 40px; 
+  text-align: center;
+  color: #FFC576;
+  
+
+}
+.logi {
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-html5,.fa-css,.fa-php,.fa-js{
+    font-size: 30px;
+}
+.langue{
+      font-size: 40px; 
+  text-align: center;
+  color: #FFC576;
+}
+.langues{
+    display: flex;
+    justify-content: space-evenly;
+}
+.langues p{
+    font-size: 20px;
+
+}
+.Qualités{
+         font-size: 40px; 
+  text-align: center;
+  color: #FFC576;
+}
+.qlcont{
+display: flex;
+justify-content: space-evenly;
+}

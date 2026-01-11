@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border: 2px;
+}
+.navbar {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-size: x-large;
+    gap: 6px;
+    padding: 0;
+}
+
+.navbar a {
+    font-size: x-large;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-square-linkedin,.fa-github-alt{
+    font-size: 50px;
+   margin-top: 50px;
+}
+.form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mail{
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+.Nom {
+    
+    color: white;
+    margin-right: 8.625rem;
+    width: 37.438rem;
+    height: 2.828rem;
+    margin-bottom: 3.375rem;
+}
+.Nom input {
+    background-color: #152237;
+    width: 37.438rem;
+    height: 2.813rem;
+}
+
+.names::placeholder {
+    color: white;
+    padding-left: 0.75rem;
+    padding-bottom: 0.625rem;
+}
+
+.email {
+
+    color: white;
+    width: 37.438rem;
+    height: 2.813rem;
+
+}
+
+.email input {
+    background-color: #152237;
+
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 0.75rem;
+    padding-bottom: 0.625rem;
+}
+
+.message textarea {
+
+    background-color: #152237;
+    color: white;
+    width: 83.5rem;
+    height: 12.188rem;
+    margin-left: 10.625rem;
+
+}
+
+.message input {
+    background-color: #152237;
+
+
+}
+
+.message::placeholder {
+    color: white;
+    padding-left: 0.75rem;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+
+}
+
+
+.btn {
+    background-color:#33032f;
+    color: white;
+    border: solid 1px #33032f;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.939rem 9.375rem;
+    margin-top: 3.375rem;
+    margin-left: 40%;
+    margin-bottom: 4.813rem;
+
+}
