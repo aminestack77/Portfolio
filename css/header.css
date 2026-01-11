@@ -1,0 +1,25 @@
+.but:hover{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border: 2px;
+}
+.navbar {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-size: x-large;
+
+    gap: 6px;
+    padding: 0;
+}
+
+.navbar a {
+    font-size: x-large;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
